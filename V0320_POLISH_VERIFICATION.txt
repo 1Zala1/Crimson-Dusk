@@ -1,0 +1,11 @@
+Crimson Dusk v0.32.0 — Pre-Boss Polish Beta verification
+
+Requested patch targets:
+[PASS] THRONE APPROACH has Astalor symbolX=1160.
+[PASS] Final throne is rendered in drawObjects using fixed room throneX=1270.
+[PASS] Crimson Lord draw routine no longer draws the throne inside boss translation.
+[PASS] Dash derives direction from left/right input or current velocity.
+[PASS] Bandit standing/movement IFPs normalized to identical 640x640 cells and common root baseline 620.
+[PASS] Dedicated bandit_crouch_ifp.png and bandit_crouch_shoot_ifp.png present, six 640x640 frames each.
+[PASS] Crouch firearm input enabled while crouch movement remains locked.
+[PASS] Save migration includes v0.31.0.

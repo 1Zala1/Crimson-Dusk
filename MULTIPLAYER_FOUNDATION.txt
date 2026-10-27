@@ -1,0 +1,24 @@
+CRIMSON DUSK v1.1.0 MULTIPLAYER FOUNDATION
+
+This branch begins multiplayer without duplicating Bandit art.
+
+PLAYER 1
+- Existing controls and gameplay remain unchanged.
+
+PLAYER 2 LOCAL TEST CONTROLS
+- J / L: move left / right
+- I: jump / double jump
+- K: crouch
+- P: directional dash
+
+ART ARCHITECTURE
+- Both players reference the same Bandit IFP assets.
+- Player 2 is recolored at runtime and cached per animation frame.
+- Only crimson/red-dominant pixels shift toward wine-purple.
+- Gold trim, black clothing, weapons, skin, and silhouette are preserved.
+- No duplicate Player 2 sprite sheets are included.
+
+CURRENT SCOPE
+- This is the multiplayer entity/render/input foundation, not finished network multiplayer.
+- Player 2 movement, jump, crouch, dash, animation state, and palette identity are active.
+- Combat, damage targeting, revive/death, shared camera rules, room transitions, UI, and networking still need to be generalized from Player 1 to both entities.

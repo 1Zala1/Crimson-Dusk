@@ -1,0 +1,6 @@
+Crimson Dusk v1.4.1 online UI hotfix
+- Critical CSS inlined into index.html
+- game.js inlined into index.html
+- Existing castle art used as menu/lobby backdrop
+- Online start copy explains host waits for Player 2
+- External CSS/JS preserved for source/debugging

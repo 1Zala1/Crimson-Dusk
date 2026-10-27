@@ -1,0 +1,6 @@
+Crimson Dusk v1.4.2 stability hotfix
+
+- Removed getImageData pixel-read palette swap from Player 2 rendering.
+- P2 now uses source-atop translucent wine-purple compositing; no sprite duplication.
+- Added a guarded requestAnimationFrame loop so a recoverable frame error cannot permanently freeze input/rendering.
+- game.js remains inlined into index.html for deployment-path resilience.

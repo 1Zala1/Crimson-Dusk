@@ -1,0 +1,11 @@
+CRIMSON DUSK v0.30.1 — CASTLE VISUAL PASS
+
+- Courtyard of the Damned statue moved to X=1370 on the flat floor plane.
+- Statue world base remains Y=714 and continues using assets/save_statue.png.
+- castle_gate.png replaced with approved Crimson Keep gate artwork.
+- castle_hall.png replaced with approved cathedral hall artwork.
+- castle_gallery.png replaced with approved eclipse/gallery artwork.
+- castle_approach.png replaced with approved cathedral approach artwork.
+- castle_throne.png replaced; old placeholder bytes are not retained.
+- Castle replacements are 1672x941.
+- No castle background is byte-identical to room3_hive_arena.png.

@@ -1,0 +1,9 @@
+Crimson Dusk v1.3.0 controller co-op verification
+- Unified keyboard + browser Gamepad API input layer
+- Automatic 0/1/2 controller assignment
+- Hot-plug controller polling
+- Standard A/B/X/Y, bumpers, triggers, D-pad and left-stick mapping
+- P1/P2 device labels rendered in HUD
+- P1 and P2 guard mapped and stamina-backed
+- Existing keyboard mappings retained
+- Shared IFP renderer retained; no duplicate P2 animation assets

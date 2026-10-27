@@ -1,0 +1,13 @@
+Crimson Dusk v0.31.0 — Crimson Lord Model Beta verification
+
+PASS — game.js syntax validated with node --check.
+PASS — all asset paths referenced by game.js exist.
+PASS — old Hive Mother assets retained: spider_boss.png and room3_hive_arena.png unchanged from v0.30.1.
+PASS — discarded Hive Mother remake assets are not packaged.
+PASS — previous Lord placeholder asset removed from package and no longer referenced.
+PASS — new Lord assets packaged: seated, persistent empty throne, standing idle, blood-magic cast, blood-sword melee, red aura-ball projectile.
+PASS — final encounter intro states present: seated -> red eye proximity wake -> blackout -> active combat.
+PASS — boss damage and boss HUD remain disabled until the Lord engages.
+PASS — existing 50% HP Phase 2 gameplay transition retained.
+PASS — v0.30.1 save key included in legacy save migration list.
+PASS — local server startup and index fetch succeeded.

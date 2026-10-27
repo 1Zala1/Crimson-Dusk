@@ -1,0 +1,22 @@
+CRIMSON DUSK v1.0 RC1 — SINGLE-PLAYER STABILIZATION VERIFICATION
+Date: 2026-10-23
+
+PASS — JavaScript syntax: game.js, server.js
+PASS — Runtime asset references: no missing files
+PASS — Server startup / index response
+PASS — Canonical world floor retained at Y=714
+PASS — Throne Approach Astalor summon point present
+PASS — Crimson Lord throne remains a fixed room object
+PASS — Crimson Lord idle IFP: 6 nonempty frames
+PASS — Crimson Lord walk IFP: 6 nonempty frames
+PASS — Crimson Lord cast IFP: 6 nonempty frames
+PASS — Crimson Lord melee IFP: 6 nonempty frames
+PASS — Crimson Lord projectile IFP: 6 nonempty frames
+PASS — Running spider IFP: 6 nonempty frames
+PASS — Bandit crouch IFP rebuilt from approved base model: 6 nonempty frames
+PASS — Bandit crouch-shoot IFP rebuilt from approved base model: 6 nonempty frames
+PASS — Bandit attack 1/2/3, shotgun, guard, dash-parry, and jump use dedicated new-model runtime assets
+PASS — Directional dash uses current movement input / velocity
+PASS — Astalor idle sprite has explicit floor-safe root
+PASS — New RC save key with v0.32.0 migration
+

@@ -1,0 +1,21 @@
+CRIMSON DUSK v1.4.0 ONLINE MULTIPLAYER VERIFICATION
+
+TARGET REQUIREMENTS
+[PASS] Browser-hosted app architecture
+[PASS] No login/account requirement
+[PASS] 5-character room-code creation and joining
+[PASS] Two clients per room
+[PASS] Host-authoritative world state
+[PASS] Guest input -> host relay
+[PASS] Host world snapshot -> guest relay
+[PASS] Keyboard input
+[PASS] Standard Gamepad API input
+[PASS] Touch controls for phone/tablet
+[PASS] Existing multiplayer +20% enemy/boss HP scaling retained
+[PASS] Existing mob/boss health bars retained
+[PASS] Node syntax validation
+[PASS] HTTP server startup
+[PASS] Live WebSocket create/join/input/snapshot relay test
+
+DEPLOYMENT NOTE
+The package is deployment-ready but does not itself create a third-party public URL. Deploy the folder as a Node web service (for example Render/Railway/Fly.io) with `node server.js`. The service reads process.env.PORT automatically.

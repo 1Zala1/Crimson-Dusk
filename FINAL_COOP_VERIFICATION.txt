@@ -1,0 +1,14 @@
+Crimson Dusk v1.2.0 Final Co-op Candidate
+
+Required release rules:
+- Bandit II reuses Bandit I IFP assets with runtime burgundy palette shift.
+- Multiplayer HP multiplier: 1.20 for all spawned mobs and bosses.
+- Every normal enemy draws an overhead HP bar.
+- Named bosses retain full-screen boss HP bars.
+- Enemies, Hive Mother and Crimson Lord select the nearest living Bandit.
+- Harlequin moon projectiles select living Bandits.
+- Projectiles can collide with either player.
+- P2 has melee, ranged, shotgun, flask, stance, crouch, jump and directional dash controls.
+- Room transitions reposition Bandit II with Bandit I.
+- Team wipe returns to checkpoint; a single fallen Bandit auto-recovers beside the survivor at 50% HP.
+- Existing single-player content and save migration remain intact.

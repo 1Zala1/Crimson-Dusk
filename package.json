@@ -1,0 +1,10 @@
+{
+  "name": "crimson-dusk-online",
+  "version": "1.4.2-stability-hotfix",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check game.js && node --check server.js"
+  },
+  "description": "Crimson Dusk two-player browser co-op with room codes, WebSocket state sync, keyboard/controller/touch input, and no login requirement."
+}
