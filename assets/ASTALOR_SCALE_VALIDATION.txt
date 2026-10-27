@@ -1,0 +1,6 @@
+Crimson Dusk v0.24.4 Astalor scale validation
+Target visible character height: 472px
+Target character bottom: y=624px
+Target character center: x=183px
+Idle and hair-fix strips are normalized to the same apparent scale and anchor.
+Spawn strip confirmed as 6 x 362px frames; no fractional 8-frame slicing is used.

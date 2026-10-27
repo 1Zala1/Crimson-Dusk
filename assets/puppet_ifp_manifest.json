@@ -1,0 +1,59 @@
+{
+  "lower": {
+    "idle": {
+      "file": "puppet_lower_idle_ifp.png",
+      "frames": 6,
+      "cell_w": 362,
+      "cell_h": 724
+    },
+    "walk": {
+      "file": "puppet_lower_walk_ifp.png",
+      "frames": 6,
+      "cell_w": 362,
+      "cell_h": 724
+    },
+    "attack1": {
+      "file": "puppet_lower_attack1_ifp.png",
+      "frames": 6,
+      "cell_w": 362,
+      "cell_h": 724
+    },
+    "attack2": {
+      "file": "puppet_lower_attack2_ifp.png",
+      "frames": 6,
+      "cell_w": 362,
+      "cell_h": 724
+    }
+  },
+  "claw": {
+    "idle": {
+      "file": "puppet_claw_idle_ifp.png",
+      "frames": 6,
+      "cell_w": 362,
+      "cell_h": 724
+    },
+    "walk": {
+      "file": "puppet_claw_walk_ifp.png",
+      "frames": 6,
+      "cell_w": 362,
+      "cell_h": 724
+    },
+    "attack1": {
+      "file": "puppet_claw_attack1_ifp.png",
+      "frames": 6,
+      "cell_w": 640,
+      "cell_h": 724
+    },
+    "attack2": {
+      "file": "puppet_claw_attack2_ifp.png",
+      "frames": 6,
+      "cell_w": 640,
+      "cell_h": 724
+    }
+  },
+  "rules": {
+    "stable_baseline": true,
+    "independent_cells": true,
+    "frame_count": 6
+  }
+}
